@@ -302,3 +302,4 @@ C:\Projects\Clean\ASP.NET-Core-CleanArchitecture-CQRS-Identity-main\Naxxum.JobyH
 C:\Projects\Clean\ASP.NET-Core-CleanArchitecture-CQRS-Identity-main\Naxxum.JobyHunter.Authentication.Api\obj\Debug\net8.0\Authentication.Api.pdb
 C:\Projects\Clean\ASP.NET-Core-CleanArchitecture-CQRS-Identity-main\Naxxum.JobyHunter.Authentication.Api\obj\Debug\net8.0\Authentication.Api.genruntimeconfig.cache
 C:\Projects\Clean\ASP.NET-Core-CleanArchitecture-CQRS-Identity-main\Naxxum.JobyHunter.Authentication.Api\obj\Debug\net8.0\ref\Authentication.Api.dll
+C:\Projects\Clean\ASP.NET-Core-CleanArchitecture-CQRS-Identity-main\Naxxum.JobyHunter.Authentication.Api\obj\Debug\net8.0\Authentication.Api.sourcelink.json

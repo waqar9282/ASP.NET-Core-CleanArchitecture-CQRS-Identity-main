@@ -250,3 +250,4 @@ C:\Projects\Clean\ASP.NET-Core-CleanArchitecture-CQRS-Identity-main\Naxxum.JobyH
 C:\Projects\Clean\ASP.NET-Core-CleanArchitecture-CQRS-Identity-main\Naxxum.JobyHunter.Authentication.UnitTests\obj\Debug\net8.0\Authentication.UnitTests.pdb
 C:\Projects\Clean\ASP.NET-Core-CleanArchitecture-CQRS-Identity-main\Naxxum.JobyHunter.Authentication.UnitTests\obj\Debug\net8.0\Authentication.UnitTests.genruntimeconfig.cache
 C:\Projects\Clean\ASP.NET-Core-CleanArchitecture-CQRS-Identity-main\Naxxum.JobyHunter.Authentication.UnitTests\obj\Debug\net8.0\ref\Authentication.UnitTests.dll
+C:\Projects\Clean\ASP.NET-Core-CleanArchitecture-CQRS-Identity-main\Naxxum.JobyHunter.Authentication.UnitTests\obj\Debug\net8.0\Authentication.UnitTests.sourcelink.json

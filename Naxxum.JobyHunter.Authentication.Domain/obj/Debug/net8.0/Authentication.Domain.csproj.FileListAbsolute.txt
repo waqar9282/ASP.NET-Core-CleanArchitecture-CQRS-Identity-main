@@ -22,3 +22,4 @@ C:\Projects\Clean\ASP.NET-Core-CleanArchitecture-CQRS-Identity-main\Naxxum.JobyH
 C:\Projects\Clean\ASP.NET-Core-CleanArchitecture-CQRS-Identity-main\Naxxum.JobyHunter.Authentication.Domain\obj\Debug\net8.0\refint\Authentication.Domain.dll
 C:\Projects\Clean\ASP.NET-Core-CleanArchitecture-CQRS-Identity-main\Naxxum.JobyHunter.Authentication.Domain\obj\Debug\net8.0\Authentication.Domain.pdb
 C:\Projects\Clean\ASP.NET-Core-CleanArchitecture-CQRS-Identity-main\Naxxum.JobyHunter.Authentication.Domain\obj\Debug\net8.0\ref\Authentication.Domain.dll
+C:\Projects\Clean\ASP.NET-Core-CleanArchitecture-CQRS-Identity-main\Naxxum.JobyHunter.Authentication.Domain\obj\Debug\net8.0\Authentication.Domain.sourcelink.json

@@ -36,3 +36,4 @@ C:\Projects\Clean\ASP.NET-Core-CleanArchitecture-CQRS-Identity-main\Naxxum.JobyH
 C:\Projects\Clean\ASP.NET-Core-CleanArchitecture-CQRS-Identity-main\Naxxum.JobyHunter.Authentication.Infrastructure\obj\Debug\net8.0\Authentication.Infra.pdb
 C:\Projects\Clean\ASP.NET-Core-CleanArchitecture-CQRS-Identity-main\Naxxum.JobyHunter.Authentication.Infrastructure\obj\Debug\net8.0\Authentication.Infra.genruntimeconfig.cache
 C:\Projects\Clean\ASP.NET-Core-CleanArchitecture-CQRS-Identity-main\Naxxum.JobyHunter.Authentication.Infrastructure\obj\Debug\net8.0\ref\Authentication.Infra.dll
+C:\Projects\Clean\ASP.NET-Core-CleanArchitecture-CQRS-Identity-main\Naxxum.JobyHunter.Authentication.Infrastructure\obj\Debug\net8.0\Authentication.Infra.sourcelink.json
