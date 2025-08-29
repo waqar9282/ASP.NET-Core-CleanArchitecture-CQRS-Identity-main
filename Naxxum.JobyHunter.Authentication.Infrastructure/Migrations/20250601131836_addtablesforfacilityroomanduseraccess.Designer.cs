@@ -4,6 +4,7 @@ using Authentication.Infra.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Naxxum.JobyHunter.Authentication.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250601131836_addtablesforfacilityroomanduseraccess")]
+    partial class addtablesforfacilityroomanduseraccess
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -112,38 +115,8 @@ namespace Naxxum.JobyHunter.Authentication.Infrastructure.Migrations
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("Allergies")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<DateTime>("DateOfBirth")
                         .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("DateOfEntryToFacility")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("DeactivationDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Education")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("EducationFacilityEmail")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("EducationFacilityName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("EducationFacilityNumber")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Email")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("Ethnicity")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("EyeColour")
-                        .HasColumnType("int");
 
                     b.Property<string>("FacilityId")
                         .IsRequired()
@@ -152,44 +125,6 @@ namespace Naxxum.JobyHunter.Authentication.Infrastructure.Migrations
                     b.Property<string>("FullName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("Gender")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("HairColour")
-                        .HasColumnType("int");
-
-                    b.Property<string>("HealthIssues")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<decimal?>("Height")
-                        .HasPrecision(5, 2)
-                        .HasColumnType("decimal(5,2)");
-
-                    b.Property<string>("IROContactNo")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("IROEmail")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("IROName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("IsActive")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("Nationality")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PhoneNumber")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ProfilePicture")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("Religion")
-                        .HasColumnType("int");
 
                     b.Property<int?>("RoomId")
                         .HasColumnType("int");

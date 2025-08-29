@@ -77,6 +77,10 @@ namespace Authentication.Infra.Data
                 .HasMany(u => u.UserYoungPersons)
                 .WithOne()
                 .HasForeignKey(uy => uy.UserId);
+
+            modelBuilder.Entity<YoungPerson>()
+                .Property(y => y.Height)
+                .HasPrecision(5, 2); // Allows values like 123.45
         }
     }
 }
